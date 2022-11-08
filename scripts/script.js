@@ -11,10 +11,18 @@
 //     exp += 1;
 // }
 
-let input;
-do {
-    input = prompt('Please enter you name.');
-    console.log(Number(input));
-} while (!isNaN(Number(input)));
+// let input;
+// do {
+//     input = prompt('Please enter you name.');
+//     console.log(Number(input));
+// } while (!isNaN(Number(input)));
 
-alert(`Hello ${input}`)
+// alert(`Hello ${input}`)
+
+let fruits = ['Apple', 'Banana']
+fruits.push('Orange')
+fruits.pop()
+fruits.unshift('Mango')
+fruits.shift()
+
+console.log(fruits)
